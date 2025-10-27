@@ -1,0 +1,33 @@
+baseURL: https://example.org/
+languageCode: en-us
+title: gothy dreams
+
+module:
+  imports:
+    - path: github.com/imfing/hextra
+
+menu:
+  main:
+    - identifier: chronicles
+      name: Chronicles
+      url: /chronicles/
+      weight: 1
+    - identifier: admiration
+      name: Admiration
+      url: /admiration/
+      weight: 2
+    - identifier: sad-poetry
+      name: Sad poetry
+      url: /sad-poetry/
+      weight: 3
+
+params:
+  style:
+    customCSS:
+      - css/custom.css
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
