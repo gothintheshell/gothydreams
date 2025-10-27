@@ -94,6 +94,12 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./public
+      - name: Upload public folder as artifact
+        - name: Upload public folder as artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: hugo-public
+          path: ./public
   deploy:
     environment:
       name: github-pages
