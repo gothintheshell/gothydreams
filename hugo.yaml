@@ -1,6 +1,10 @@
-baseURL: https://example.org/
+baseURL: https://www.gothydreams.space
 languageCode: en-us
 title: gothy dreams
+
+caches:
+  images:
+    dir: :cacheDir/images
 
 module:
   imports:
