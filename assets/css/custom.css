@@ -1,7 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=Nosifer&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Henny+Penny&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Trade+Winds&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@100..900&display=swap');
+@font-face {
+  font-family: 'Henny Penny';
+  src: url('/fonts/HennyPenny-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Noto Sans Mono';
+  src: url('/fonts/NotoSansMono-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Trade Winds';
+  src: url('/fonts/TradeWinds-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Nosifer';
+  src: url('/fonts/Nosifer-Regular.ttf') format('truetype');
+}
 
 .content::before {
   content: "";
@@ -33,7 +48,6 @@
   background: none !important;
   margin-bottom: 1.5rem !important;
 }
-
 
 .content p {
   margin-bottom: 1.25rem;
